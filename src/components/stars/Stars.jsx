@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import etoileActiveImage from "./../../assets/etoile_active.png";
-import etoileInactiveImage from "./../../assets/etoile_inactive.png";
+import etoileActiveImage from "./../../assets/etoile_active.webp";
+import etoileInactiveImage from "./../../assets/etoile_inactive.webp";
 import "./stars.css";
 
 function Stars({ nombreEtoilesActives, nombreEtoilesInactives }) {

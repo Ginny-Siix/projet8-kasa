@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import Source_1 from '../../assets/image_source_1.svg';
-import Source_2 from '../../assets/Image_source_2.png';
+import Source_1 from '../../assets/Image_source_1.webp';
+import Source_2 from '../../assets/Image_source_2.webp';
 
 import './banner.css';
 

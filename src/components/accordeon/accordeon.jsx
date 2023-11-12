@@ -16,7 +16,7 @@ console.log(contentVisible)
         <p>{title}</p>
         <img
           className={`fleche_up ${contentVisible ? "rotate" : ""}`}
-          src="../../src/assets/up_arrow.png"
+          src="../../src/assets/up_arrow.webp"
           alt="Flèche"
         />
       </div>

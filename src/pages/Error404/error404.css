@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 135px;
+}
+
+.h1_error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff6060;
+  font-size: 200px;
+}
+
+main h2 {
+  color: #ff6060;
+  font-size: 40px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.p_error {
+  margin-bottom: 40px;
+  color: #ff6060;
+}
+
+/* ***************************************************************************************** */
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  main {
+    gap: 116px;
+  }
+
+  main h2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,58 @@
+.details_contenent {
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  background: #ff6060;
+  display: flex;
+  flex-direction: column;
+}
+
+.fleche_up {
+  padding: 4px 10px 4px 8px;
+  position: absolute;
+  width: 36px;
+  height: 21px;
+  top: 17px;
+  right: 14px;
+  transition: transform 0.3s; /* Ajout d'une transition pour l'animation de la flèche */
+}
+
+/* Classe 'rotate' pour faire pivoter la flèche quand le contenu est visible */
+.rotate {
+  transform: rotate(180deg);
+}
+
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.topbar p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.content {
+  width: 100%;
+  padding: 15px;
+  background: #f5f5f5;
+  border-top: 1px solid #ccc;
+  min-height: 240px;
+  line-height: 23px;
+}
+
+@media only screen and (max-width: 767px) {
+  .details_contenent {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .content {
+    min-height: inherit;
+  }
+}

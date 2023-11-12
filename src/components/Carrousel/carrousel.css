@@ -1,0 +1,40 @@
+.carrousel {
+  height: 415px;
+  width: 100%;
+  position: relative;
+}
+
+.carrousel .gauche {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  cursor: pointer;
+}
+
+.carrousel .droite {
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  cursor: pointer;
+}
+
+.carrousel .main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.carrousel p {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  color: white;
+}
+
+/* ***************************************************************************************************************** */
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .carrousel p {
+    color: red;
+  }
+}

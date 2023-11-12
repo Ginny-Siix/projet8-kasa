@@ -1,0 +1,62 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  gap: 48%;
+  flex-wrap: wrap;
+}
+
+.nav_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 25px;
+  margin-bottom: 2%;
+}
+
+header nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li {
+  color: transparent;
+}
+
+header nav ul li a {
+  color: #ff6060;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+/* ****************************************************************************************************************************************** */
+@media only screen and (max-width: 767px) {
+  header {
+    gap: 0;
+  }
+
+  .nav_container img {
+    height: 46px;
+    width: 145px;
+  }
+
+  nav ul li {
+    font-size: 12px;
+  }
+}
